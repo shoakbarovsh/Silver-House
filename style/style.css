@@ -1,0 +1,137 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto; 
+}
+.row {
+    display: flex;
+}
+nav {
+     flex-direction: column;
+    align-items: center;
+   
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 62px;
+}
+
+.menu__link {
+    color: #bab9b9;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 23px;
+     padding-bottom: 11px;
+    transition: 0.5s;
+   
+}
+
+.menu__link:hover {
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+    padding-bottom: 11px;
+}
+.header__img{
+    width: 100%;
+}
+
+
+
+.main {
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  height: 500px;
+}
+
+.product {
+width: 595px;
+    background: #f0f0f0;
+    padding: 50px 95px 0 40px; 
+   /*  justify-content: space-evenly; */
+  /*   margin-top: 30px;
+    margin-bottom: 30px; */
+    /* padding: 11px 95px 67px 10px; */
+
+}
+
+.product_item {
+    width: 268px;
+    background: #f0f0f0;
+    padding: 50px 42px 0 40px;
+    mb
+   /*  justify-content: space-between; */
+
+   /*  padding: 11px 54px 182px 40px; */
+}
+
+/* max-width: 200px;
+width: 100%; */
+.product h1,
+.product_item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4581b7;
+    margin-bottom: 25px;
+}
+
+.product p,
+.product_item p {
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+.product_item p{
+    margin-bottom: 27px;
+}
+
+span {
+    line-height: 47px;
+}
+
+footer {
+    background: #f0f0f0;
+    justify-content: space-between;
+}
+footer a {
+margin: 15px 41px;
+}
+footer p{
+    text-align: right;
+    color: #808080;
+    font-size: 16px;
+    font-weight:400;
+
+    
+}
+.tel{
+    color: #808080;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 9px;
+}
+
+
+
+.logo{
+    margin-top: 50px;
+}
+.footer__info{
+    margin-top: 40px;
+    margin-right: 41px;
+}
+
+
+
+
+
+
